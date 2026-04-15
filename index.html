@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1776179926-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Casino de Berck : jeux, restauration et guide visiteur</title>
+    <meta name="description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <link rel="canonical" href="https://#casino-de-berck.com">
+    <meta property="og:title" content="Casino de Berck : jeux, restauration et guide visiteur">
+    <meta property="og:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta property="og:url" content="https://#casino-de-berck.com">
+    <meta property="og:site_name" content="Casino de Berck : jeux, restauration et guide visiteur">
+    <meta property="og:locale" content="fr-FR">
+    <meta property="og:image" content="https://paf-casino-online.com/images/og_image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="casino-de-berck.com">
+    <meta name="twitter:title" content="Casino de Berck : jeux, restauration et guide visiteur">
+    <meta name="twitter:description"
+          content="Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!">
+    <meta name="twitter:image" content="https://paf-casino-online.com/images/og_image.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1776180362-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="fr-FR">
+
+    <link rel="apple-touch-icon" href="_assets/images/1776179908-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1776179908-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1776181128-main.svg" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://#casino-de-berck.com" />
+    <link rel="alternate" hreflang="fr" href="https://#casino-de-berck.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#2e2e2e"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#CD2D26"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#ffea00"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#2e2e2e"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#CD2D26"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://#casino-de-berck.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1776179926-logo.svg" alt="Casino de Berck" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="S’inscrire" id="navSignUp"> S’inscrire </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Jouer maintenant" id="navPlayNow"> Jouer maintenant </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Offre de bienvenue exclusive de</p>
+                            <p class="heroText heroTextMobile">Offre de bienvenue exclusive de</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Lancer la partie"><span
+                            class="heroButton btn btn--large">Réclamer le bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Guide du casino terrestre Casino de Berck</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Tous les casinos </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Détails du bonus</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonus</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Note</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Tours gratuits</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Plus d'infos</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Obtenir</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Actualiser
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Avantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Entrée gratuite avec contrôle d’accès adulte.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Établissement accessible avec restauration sur place.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Machines à sous et tables traditionnelles.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Parking disponible pour des visites fluides.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Restaurant, bar et jeux réunis.</p>
+                                </li>
+                                <li class="providersGroup"></li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="En savoir plus"><span
+                                class="advantagesButton btn btn--large">En savoir plus</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Casino de Berck App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1776180903-mobile.svg" title="Casino de Berck Mobile"
+                                alt="Casino de Berck App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Casino de Berck App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Casino de Berck App" title="Casino de Berck App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Jeux populaires</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Tous les jeux"><span
+                            class="gamesButton btn btn--large">Tous les jeux</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">À propos du casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription"></p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Titulaire de la délégation de service public : SA Groupe Infiniti depuis le 1er janvier 2026, pour 12 ans.</li>
+                                        <li class="historyItem">L’entrée est gratuite et l’accès est réservé aux adultes avec pièce d’identité valide.</li>
+                                        <li class="historyItem">Les services confirmés sur place comprennent La Verrière, un bar, l’accès PMR et un parking.</li>
+                                    </ul>
+                                    <p class="historyDescription">Nous accueillons nos visiteurs à Berck-sur-Mer, Place du 18 Juin, dans un établissement dont l’histoire moderne du casino est liée à l’ancienne gare routière de la ville. En pratique, notre offre confirmée repose sur un divertissement en présentiel clair et efficace : machines à sous, jeux de table traditionnels, entrée gratuite et admission contrôlée pour les adultes munis d’une pièce d’identité valide. Cela rend notre casino particulièrement pertinent pour les visiteurs qui recherchent une session de jeu sur place simple, encadrée et facile à comprendre.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1776181344-dekstop.svg" alt="Casino De Berck" title="Casino de Berck Desktop"/></div>
+                        </div>
+                        <p class="historyDescription"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Caractéristiques du casino</h2>
+                        <div class="historyDescription"><p>À Berck-sur-Mer, nous faisons de chaque visite un moment de plaisir, de détente et de divertissement. Notre casino terrestre ne se limite pas à une offre de jeux&nbsp;: nous avons conçu un lieu accueillant où l’on peut profiter d’une véritable sortie, dans un cadre convivial, accessible et agréable. En venant chez nous, nos visiteurs retrouvent en un seul endroit le jeu, la restauration, le confort sur place et l’ambiance d’un établissement pensé pour le loisir.</p>
+
+  <br>
+<p>Notre emplacement à Berck-sur-Mer constitue l’un de nos grands atouts. Nous accueillons aussi bien une clientèle locale que des visiteurs de passage, des vacanciers et des personnes en séjour sur la côte. Grâce à cette situation pratique, notre casino s’intègre naturellement dans une journée de promenade, une soirée de détente ou un week-end de loisirs. Nous permettons ainsi de réunir facilement plusieurs envies en une seule adresse&nbsp;: jouer, se retrouver, dîner, profiter d’un verre et passer un bon moment dans un environnement soigné.</p>
+
+  <br>
+<p>Nous attachons une grande importance à la simplicité du parcours visiteur. L’entrée est gratuite, ce qui rend l’accès à notre établissement particulièrement fluide et confortable. Nous mettons également à disposition un parking, un avantage appréciable pour organiser sa venue en toute sérénité. Sur place, nos visiteurs bénéficient d’un espace accueillant où tout est pensé pour favoriser une expérience agréable dès l’arrivée et tout au long de la visite.</p>
+
+  <br>
+<p>Notre offre de jeux participe pleinement à cette expérience. Nous proposons 75 machines à sous, 1 table de black jack, 1 boule 2000 ainsi que 4 postes de roulette anglaise électronique. Cette sélection nous permet d’accueillir différents profils de joueurs et de proposer une expérience variée, dynamique et attractive. Chez nous, chacun peut retrouver une ambiance de casino authentique, avec des espaces de jeu qui contribuent à faire de chaque passage un moment vivant et divertissant.</p>
+
+  <br>
+<p>Nous accordons également une place importante à la convivialité et aux services complémentaires. Notre bar permet de prolonger agréablement la visite dans une atmosphère détendue, tandis que notre restaurant La Verrière offre une solution idéale pour associer plaisir du jeu et moment gourmand. Cette complémentarité entre les espaces de jeu et les espaces de restauration renforce l’identité de notre casino comme lieu de sortie complet, où l’on vient aussi bien pour se divertir que pour profiter d’un cadre agréable en couple, entre amis ou en famille majeure.</p>
+
+  <br>
+<p>Le confort de tous nos visiteurs fait partie de nos priorités. Nous disposons d’un accès adapté aux personnes à mobilité réduite, afin de rendre l’expérience plus inclusive et plus pratique. Nous veillons également à proposer un environnement organisé, accueillant et adapté à une fréquentation régulière comme occasionnelle. Cette attention portée aux conditions de visite contribue à faire de notre établissement une adresse appréciée pour sa facilité d’accès et la qualité de son accueil.</p>
+
+  <br>
+<p>Nous portons une attention particulière aux conditions d’entrée afin de garantir un cadre conforme, clair et rassurant pour tous. L’accès à notre casino est réservé aux personnes âgées de 18 ans et plus, et un contrôle d’identité est effectué à l’entrée. Une pièce d’identité valide est requise. Ce fonctionnement participe à la qualité de l’accueil et au sérieux de notre établissement, tout en assurant à nos visiteurs un environnement structuré et encadré.</p>
+
+  <br>
+<p>Notre casino fonctionne dans le cadre d’une délégation de service public, ce qui reflète une organisation d’exploitation clairement établie. L’opérateur actuellement indiqué est la SA Groupe Infiniti, avec une DSP débutée le 1er janvier 2026 pour une durée de 12 ans. Cette structure s’inscrit dans une logique de continuité, de stabilité et de gestion encadrée, des éléments importants pour valoriser notre présence locale et le développement de notre établissement dans la durée.</p>
+
+  <br>
+<p>Nous nous distinguons aussi par notre capacité à proposer bien plus qu’une simple salle de jeu. Chez nous, la visite prend la forme d’une expérience complète, où les loisirs, la restauration, l’accessibilité et les services sur place se rejoignent naturellement. C’est cette combinaison qui fait la force de notre casino à Berck-sur-Mer&nbsp;: un lieu vivant, pratique et accueillant, pensé pour celles et ceux qui recherchent à la fois le divertissement, le confort et la qualité d’une véritable sortie.</p>
+
+  <br>
+<p>En choisissant notre casino, nos visiteurs profitent d’un établissement où tout est réuni pour passer un moment agréable dans un cadre attractif&nbsp;: une entrée gratuite, une offre de jeux variée, un restaurant, un bar, un parking, une accessibilité adaptée et une implantation idéale à Berck-sur-Mer. Nous faisons de chaque venue une expérience fluide, plaisante et mémorable, avec l’ambition d’offrir un lieu de loisir complet qui donne envie de revenir.</p>
+
+  <br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="color:#ffffff; border-collapse:collapse; width:100%; table-layout:fixed; font-size:clamp(8px, 1.9vw, 16px); line-height:1.25;">
+    <tr>
+      <th style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); text-align:left; word-break:break-word;">Caractéristique</th>
+      <th style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); text-align:left; word-break:break-word;">Détails</th>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Nom</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Notre casino à Berck-sur-Mer</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Type</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Casino terrestre</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Ville</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Berck-sur-Mer</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Pays</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">France</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Adresse</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Place du 18 Juin, 62600 Berck-sur-Mer, France</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Téléphone principal</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">+33 3 21 84 87 58</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Téléphone du restaurant</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">+33 3 21 84 27 25</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Restaurant</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">La Verrière</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Bar</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Disponible</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Offre de jeux</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">75 machines à sous, 1 black jack, 1 boule 2000, 4 postes de roulette anglaise électronique</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Entrée</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Gratuite</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Âge minimum</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">18 ans et plus</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Contrôle d’accès</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Contrôle d’identité à l’entrée</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Justificatif</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Pièce d’identité valide</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Accessibilité</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Accès aux personnes handicapées</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Parking</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Disponible</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Code vestimentaire</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Tenue adaptée exigée</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Ouverture</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Tous les jours à partir de 10h00</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Statut d’exploitation</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Délégation de service public</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Délégataire actuel de la DSP</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">SA Groupe Infiniti</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Début de la DSP actuelle</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">1er janvier 2026</td>
+    </tr>
+    <tr>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">Durée de la DSP</td>
+      <td style="color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;">12 ans</td>
+    </tr>
+  </table>
+</div></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Fournisseurs de logiciels </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Dépôts et retraits</h2>
+                        <div class="historyDescription"><p>Nous accordons une attention particulière à tout ce qui contribue à rendre l’expérience de visite plus simple, plus fluide et plus rassurante. Les informations relatives aux dépôts et aux retraits occupent une place importante dans ce cadre, car elles aident nos visiteurs à mieux comprendre les aspects pratiques de leur passage dans notre établissement. Pour une première visite comme pour une venue régulière, disposer d’une vision claire des conditions de paiement permet d’aborder l’expérience avec davantage de sérénité et de confort.</p>
+  <br>
+<p>Chez nous, la lisibilité des informations fait partie intégrante de la qualité de service. Lorsqu’un visiteur souhaite préparer sa venue, il recherche naturellement des repères utiles sur les moyens de paiement, les modalités applicables aux transactions, les conditions générales liées aux dépôts et aux retraits ainsi que le fonctionnement global des opérations sur place. Cette dimension pratique joue un rôle essentiel dans la perception de confort, de simplicité et de confiance tout au long de l’expérience.</p>
+  <br>
+<p>Nous savons également que la transparence autour des paiements est un élément apprécié par les visiteurs. Une présentation structurée et claire des informations financières contribue à rendre le parcours plus prévisible, plus compréhensible et plus agréable. En mettant en avant les éléments disponibles dans un format organisé, nous facilitons la consultation rapide des informations utiles et nous renforçons la qualité de lecture pour les personnes qui découvrent notre casino pour la première fois.</p>
+  <br>
+<p>Dans cette logique, nous privilégions une présentation rigoureuse, fidèle et directement exploitable. Le tableau consacré aux dépôts et aux retraits a été conçu pour offrir une lecture claire, immédiate et pratique, sans surcharge inutile. Cette approche permet à chacun d’identifier rapidement le statut des informations publiquement vérifiables et d’accéder à une vue synthétique des points les plus importants liés aux conditions de paiement.</p>
+  <br>
+<p>Nous attachons une grande importance à la fiabilité du contenu présenté à nos visiteurs. C’est pourquoi nous adoptons ici une méthode strictement factuelle, fondée uniquement sur les éléments pouvant être vérifiés à partir des sources publiques disponibles. Cette démarche permet de garantir une présentation cohérente, sérieuse et utile, en restant centrés sur une information propre, claire et responsable. Pour nos visiteurs, cela signifie une consultation plus simple et une meilleure lisibilité des informations essentielles avant leur venue.</p>
+  <br>
+<p>Notre objectif est d’offrir une expérience informative aussi soignée que l’expérience sur place. Les visiteurs qui consultent cette section peuvent ainsi retrouver un format structuré, pensé pour accompagner leur préparation et leur permettre d’aborder leur visite avec davantage de repères. Cette organisation renforce le sentiment de clarté et s’inscrit pleinement dans notre volonté de proposer un parcours utilisateur fluide, pratique et orienté vers le confort.</p>
+  <br>
+<p>Nous considérons que chaque détail utile participe à la qualité globale de l’expérience. La section dédiée aux dépôts et aux retraits s’intègre donc naturellement dans notre présentation générale, au même titre que les informations sur l’accès, les services, les espaces de jeu et les conditions de visite. En réunissant ces éléments dans une logique cohérente, nous aidons nos visiteurs à mieux se projeter et à préparer leur venue dans les meilleures conditions.</p>
+  <br>
+<p>Le tableau ci-dessous reflète ainsi exclusivement les informations publiquement vérifiables dans le cadre de cette présentation. Il a pour vocation d’offrir une lecture claire, directe et structurée, fidèle à notre exigence de sérieux, de transparence et de confort pour l’utilisateur. Nous mettons tout en œuvre pour proposer une information lisible et utile, afin que chaque visiteur puisse découvrir notre casino dans un cadre clair, rassurant et agréable dès les premières étapes de sa consultation.</p>
+  <br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;">
+        Élément
+      </th>
+      <th style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;">
+        Statut
+      </th>
+      <th style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;">
+        Remarque
+      </th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Méthodes de dépôt acceptées
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucune source publique vérifiée consultée ne précise les méthodes disponibles
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Montant minimum de dépôt
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Information non confirmée dans les sources accessibles
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Options de retrait disponibles
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Les moyens de retrait ne sont pas détaillés publiquement
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Montant minimum de retrait
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucune donnée vérifiée accessible
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Frais de dépôt
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucun frais confirmé publiquement
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Frais de retrait
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucun frais confirmé publiquement
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Délais de traitement des dépôts
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Les délais ne sont pas indiqués dans les sources consultées
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Délais de traitement des retraits
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucune précision publique vérifiée
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Plafonds de transaction
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Les limites éventuelles ne sont pas confirmées
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Exigences d’identification pour les retraits
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Aucune règle vérifiée accessible publiquement
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Règles internes de traitement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Non spécifié publiquement
+      </td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;">
+        Les conditions internes ne sont pas détaillées publiquement
+      </td>
+    </tr>
+  </table>
+</div></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="o_se_situe_le_casino_de_berck_"/><label
+                            class="faqLabel" for="o_se_situe_le_casino_de_berck_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Où se situe le Casino de Berck ? </span></label>
+                        <div class="faqContent">
+                            <p>Nous sommes situés Place du 18 Juin, 62600 Berck-sur-Mer, France.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="lentre_au_casino_de_berck_estelle_gratuite_"/><label
+                            class="faqLabel" for="lentre_au_casino_de_berck_estelle_gratuite_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> L’entrée au Casino de Berck est-elle gratuite ? </span></label>
+                        <div class="faqContent">
+                            <p>Oui. L’entrée est gratuite.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="quels_jeux_peuton_trouver_au_casino_de_berck_"/><label
+                            class="faqLabel" for="quels_jeux_peuton_trouver_au_casino_de_berck_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Quels jeux peut-on trouver au Casino de Berck ? </span></label>
+                        <div class="faqContent">
+                            <p>Les machines à sous et les jeux de table traditionnels sont confirmés. La composition exacte complète de l’offre n’est pas spécifiée.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="fautil_une_pice_didentit_pour_entrer_au_casino_de_berck_"/><label
+                            class="faqLabel" for="fautil_une_pice_didentit_pour_entrer_au_casino_de_berck_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Faut-il une pièce d’identité pour entrer au Casino de Berck ? </span></label>
+                        <div class="faqContent">
+                            <p>Oui. Les visiteurs doivent avoir 18 ans ou plus et présenter une pièce d’identité valide.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="le_casino_de_berck_proposetil_de_la_restauration_et_des_boissons_sur_place_"/><label
+                            class="faqLabel" for="le_casino_de_berck_proposetil_de_la_restauration_et_des_boissons_sur_place_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Le Casino de Berck propose-t-il de la restauration et des boissons sur place ? </span></label>
+                        <div class="faqContent">
+                            <p>Oui. Le restaurant La Verrière et un bar sont confirmés.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="le_casino_de_berck_disposetil_dun_parking_"/><label
+                            class="faqLabel" for="le_casino_de_berck_disposetil_dun_parking_">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Le Casino de Berck dispose-t-il d’un parking ? </span></label>
+                        <div class="faqContent">
+                            <p>Oui. Un parking est disponible pour les visiteurs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://#casino-de-berck.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1776179963-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Casino de Berck" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Casino de Berck" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Casino de Berck" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Casino de Berck" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Casino de Berck" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Casino de Berck </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Activer le bonus";
+    var welcomeBonusText = "Bonus de bienvenue";
+    var bonusDetailsButtonText = "Obtenir le bonus";
+    var playNowText = "Jouer maintenant";
+    var maximumAmountText = "Montant maximum";
+    var wagerText = "";
+    var bonusCodeText = "Code promo";
+    var depositText = "";
+    var casinoName = "Casino de Berck";
+</script>
+
+</body>
+</html>

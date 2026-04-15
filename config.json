@@ -1,0 +1,206 @@
+{
+    "globalSections": {
+        "styles": {
+            "bg": "#000001",
+            "lang-select-color": "#222829",
+            "bg-light": "#000001",
+            "welcome-bonus-bg": "#000001",
+            "top-games-hover-fg": "#ffffff",
+            "main-bg": "#121212",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#000001",
+            "text-head": "#ffffff",
+            "hero-title-text": "#222829",
+            "welcome-bonus-text": "#CD2D26",
+            "yellow": "#2e2e2e",
+            "yellow-button": "#CD2D26",
+            "button-text": "#ffffff",
+            "main-button-text": "#ffffff",
+            "border-color": "#efefdc",
+            "casino-cards": "#000001",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#000033",
+            "providers-back": "#000001",
+            "faq-label": "#000001",
+            "bg-footer": "#000001",
+            "copyright": "#e7e7d5",
+            "starColor": "#ffea00",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "Inter",
+                "isCustom": false
+            }
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6206"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6207",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "logoAlt": "Casino de Berck"
+        },
+        "nav": {
+            "signUp": "S’inscrire",
+            "playNow": "Jouer maintenant"
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6208",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "copyright": "Casino de Berck"
+        }
+    },
+    "pages": [
+        {
+            "id": "fr-fr-fr-FR",
+            "path": "\/",
+            "name": "Французский",
+            "languageCode": "fr",
+            "regionCode": "FR",
+            "isDefault": true,
+            "sections": {
+                "seo": {
+                    "name": "Casino de Berck",
+                    "title": "Casino de Berck : jeux, restauration et guide visiteur",
+                    "description": "Paf Casino Sweden erbjuder snabba uttag, satsningsfria bonusar, ett brett urval av spel, säkra insättningar och uttag. Spela med komfort och säkerhet och glöm inte att hämta din bonus!",
+                    "canonical": "#casino-de-berck.com",
+                    "ogImage": "https:\/\/paf-casino-online.com\/images\/og_image.webp",
+                    "ogImageWidth": 1200,
+                    "ogImageHeight": 630,
+                    "twitterSite": "casino-de-berck.com",
+                    "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6209"
+                },
+                "hero": {
+                    "title": "Guide du casino terrestre Casino de Berck",
+                    "textDesktop": "Offre de bienvenue exclusive de",
+                    "textMobile": "Offre de bienvenue exclusive de",
+                    "playGame": "Lancer la partie",
+                    "claimBonus": "Réclamer le bonus",
+                    "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6213",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": -3,
+                    "imageXModifier": 6,
+                    "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6212",
+                    "mobileImageSizeModifier": -3,
+                    "mobileImageYModifier": 2,
+                    "mobileImageXModifier": 0
+                },
+                "topCasino": {
+                    "topCasinoButtonText": "Activer le bonus",
+                    "title": "Top casinos",
+                    "allCasino": "Tous les casinos",
+                    "welcomeBonusText": "Bonus de bienvenue"
+                },
+                "bonusDetails": {
+                    "title": "Détails du bonus",
+                    "getBonusButtonText": "Obtenir le bonus",
+                    "maximumAmountText": "Montant maximum",
+                    "wagerText": "",
+                    "bonusCodeText": "Code promo",
+                    "casino": "Casino",
+                    "bonuses": "Bonus",
+                    "rate": "Note",
+                    "freeSpins": "Tours gratuits",
+                    "moreInfo": "Plus d'infos",
+                    "get": "Obtenir",
+                    "refresh": "Actualiser"
+                },
+                "advantages": {
+                    "title": "Avantages",
+                    "advantagesBeforeText": "",
+                    "items": [
+                        "Entrée gratuite avec contrôle d’accès adulte.",
+                        "Établissement accessible avec restauration sur place.",
+                        "Machines à sous et tables traditionnelles.",
+                        "Parking disponible pour des visites fluides.",
+                        "Restaurant, bar et jeux réunis."
+                    ],
+                    "advantagesAfterText": "",
+                    "knowMore": "En savoir plus",
+                    "appTitle": "Casino de Berck App",
+                    "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6210",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": 0,
+                    "imageXModifier": 0,
+                    "mobileAlt": "Casino de Berck App",
+                    "mobileGooglePlayImageTitle": "Casino de Berck App",
+                    "mobileIosImageTitle": "Casino de Berck App"
+                },
+                "games": {
+                    "playNowText": "Jouer maintenant",
+                    "title": "Jeux populaires",
+                    "allGames": "Tous les jeux"
+                },
+                "about": {
+                    "history": {
+                        "title": "À propos du casino",
+                        "description1": "",
+                        "items": [
+                            "Titulaire de la délégation de service public : SA Groupe Infiniti depuis le 1er janvier 2026, pour 12 ans.",
+                            "L’entrée est gratuite et l’accès est réservé aux adultes avec pièce d’identité valide.",
+                            "Les services confirmés sur place comprennent La Verrière, un bar, l’accès PMR et un parking."
+                        ],
+                        "description2": "Nous accueillons nos visiteurs à Berck-sur-Mer, Place du 18 Juin, dans un établissement dont l’histoire moderne du casino est liée à l’ancienne gare routière de la ville. En pratique, notre offre confirmée repose sur un divertissement en présentiel clair et efficace : machines à sous, jeux de table traditionnels, entrée gratuite et admission contrôlée pour les adultes munis d’une pièce d’identité valide. Cela rend notre casino particulièrement pertinent pour les visiteurs qui recherchent une session de jeu sur place simple, encadrée et facile à comprendre.",
+                        "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/6214",
+                        "imageSizeModifier": 0,
+                        "imageYModifier": 0,
+                        "imageXModifier": 0,
+                        "imageAlt": "Casino De Berck",
+                        "description3": ""
+                    }
+                },
+                "custom": {
+                    "customHtml": {
+                        "title": "Caractéristiques du casino",
+                        "description": "<p>À Berck-sur-Mer, nous faisons de chaque visite un moment de plaisir, de détente et de divertissement. Notre casino terrestre ne se limite pas à une offre de jeux&nbsp;: nous avons conçu un lieu accueillant où l’on peut profiter d’une véritable sortie, dans un cadre convivial, accessible et agréable. En venant chez nous, nos visiteurs retrouvent en un seul endroit le jeu, la restauration, le confort sur place et l’ambiance d’un établissement pensé pour le loisir.<\/p>\n\n  <br>\n<p>Notre emplacement à Berck-sur-Mer constitue l’un de nos grands atouts. Nous accueillons aussi bien une clientèle locale que des visiteurs de passage, des vacanciers et des personnes en séjour sur la côte. Grâce à cette situation pratique, notre casino s’intègre naturellement dans une journée de promenade, une soirée de détente ou un week-end de loisirs. Nous permettons ainsi de réunir facilement plusieurs envies en une seule adresse&nbsp;: jouer, se retrouver, dîner, profiter d’un verre et passer un bon moment dans un environnement soigné.<\/p>\n\n  <br>\n<p>Nous attachons une grande importance à la simplicité du parcours visiteur. L’entrée est gratuite, ce qui rend l’accès à notre établissement particulièrement fluide et confortable. Nous mettons également à disposition un parking, un avantage appréciable pour organiser sa venue en toute sérénité. Sur place, nos visiteurs bénéficient d’un espace accueillant où tout est pensé pour favoriser une expérience agréable dès l’arrivée et tout au long de la visite.<\/p>\n\n  <br>\n<p>Notre offre de jeux participe pleinement à cette expérience. Nous proposons 75 machines à sous, 1 table de black jack, 1 boule 2000 ainsi que 4 postes de roulette anglaise électronique. Cette sélection nous permet d’accueillir différents profils de joueurs et de proposer une expérience variée, dynamique et attractive. Chez nous, chacun peut retrouver une ambiance de casino authentique, avec des espaces de jeu qui contribuent à faire de chaque passage un moment vivant et divertissant.<\/p>\n\n  <br>\n<p>Nous accordons également une place importante à la convivialité et aux services complémentaires. Notre bar permet de prolonger agréablement la visite dans une atmosphère détendue, tandis que notre restaurant La Verrière offre une solution idéale pour associer plaisir du jeu et moment gourmand. Cette complémentarité entre les espaces de jeu et les espaces de restauration renforce l’identité de notre casino comme lieu de sortie complet, où l’on vient aussi bien pour se divertir que pour profiter d’un cadre agréable en couple, entre amis ou en famille majeure.<\/p>\n\n  <br>\n<p>Le confort de tous nos visiteurs fait partie de nos priorités. Nous disposons d’un accès adapté aux personnes à mobilité réduite, afin de rendre l’expérience plus inclusive et plus pratique. Nous veillons également à proposer un environnement organisé, accueillant et adapté à une fréquentation régulière comme occasionnelle. Cette attention portée aux conditions de visite contribue à faire de notre établissement une adresse appréciée pour sa facilité d’accès et la qualité de son accueil.<\/p>\n\n  <br>\n<p>Nous portons une attention particulière aux conditions d’entrée afin de garantir un cadre conforme, clair et rassurant pour tous. L’accès à notre casino est réservé aux personnes âgées de 18 ans et plus, et un contrôle d’identité est effectué à l’entrée. Une pièce d’identité valide est requise. Ce fonctionnement participe à la qualité de l’accueil et au sérieux de notre établissement, tout en assurant à nos visiteurs un environnement structuré et encadré.<\/p>\n\n  <br>\n<p>Notre casino fonctionne dans le cadre d’une délégation de service public, ce qui reflète une organisation d’exploitation clairement établie. L’opérateur actuellement indiqué est la SA Groupe Infiniti, avec une DSP débutée le 1er janvier 2026 pour une durée de 12 ans. Cette structure s’inscrit dans une logique de continuité, de stabilité et de gestion encadrée, des éléments importants pour valoriser notre présence locale et le développement de notre établissement dans la durée.<\/p>\n\n  <br>\n<p>Nous nous distinguons aussi par notre capacité à proposer bien plus qu’une simple salle de jeu. Chez nous, la visite prend la forme d’une expérience complète, où les loisirs, la restauration, l’accessibilité et les services sur place se rejoignent naturellement. C’est cette combinaison qui fait la force de notre casino à Berck-sur-Mer&nbsp;: un lieu vivant, pratique et accueillant, pensé pour celles et ceux qui recherchent à la fois le divertissement, le confort et la qualité d’une véritable sortie.<\/p>\n\n  <br>\n<p>En choisissant notre casino, nos visiteurs profitent d’un établissement où tout est réuni pour passer un moment agréable dans un cadre attractif&nbsp;: une entrée gratuite, une offre de jeux variée, un restaurant, un bar, un parking, une accessibilité adaptée et une implantation idéale à Berck-sur-Mer. Nous faisons de chaque venue une expérience fluide, plaisante et mémorable, avec l’ambition d’offrir un lieu de loisir complet qui donne envie de revenir.<\/p>\n\n  <br>\n<div style=\"width:100%; max-width:100%; overflow:hidden;\">\n  <table style=\"color:#ffffff; border-collapse:collapse; width:100%; table-layout:fixed; font-size:clamp(8px, 1.9vw, 16px); line-height:1.25;\">\n    <tr>\n      <th style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); text-align:left; word-break:break-word;\">Caractéristique<\/th>\n      <th style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); text-align:left; word-break:break-word;\">Détails<\/th>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Nom<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Notre casino à Berck-sur-Mer<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Type<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Casino terrestre<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Ville<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Berck-sur-Mer<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Pays<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">France<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Adresse<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Place du 18 Juin, 62600 Berck-sur-Mer, France<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Téléphone principal<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">+33 3 21 84 87 58<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Téléphone du restaurant<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">+33 3 21 84 27 25<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Restaurant<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">La Verrière<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Bar<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Disponible<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Offre de jeux<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">75 machines à sous, 1 black jack, 1 boule 2000, 4 postes de roulette anglaise électronique<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Entrée<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Gratuite<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Âge minimum<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">18 ans et plus<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Contrôle d’accès<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Contrôle d’identité à l’entrée<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Justificatif<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Pièce d’identité valide<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Accessibilité<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Accès aux personnes handicapées<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Parking<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Disponible<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Code vestimentaire<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Tenue adaptée exigée<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Ouverture<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Tous les jours à partir de 10h00<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Statut d’exploitation<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Délégation de service public<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Délégataire actuel de la DSP<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">SA Groupe Infiniti<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Début de la DSP actuelle<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">1er janvier 2026<\/td>\n    <\/tr>\n    <tr>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">Durée de la DSP<\/td>\n      <td style=\"color:#ffffff; border:1px solid #ffffff; padding:clamp(4px, 1vw, 10px); word-break:break-word;\">12 ans<\/td>\n    <\/tr>\n  <\/table>\n<\/div>"
+                    }
+                },
+                "softwareProviders": {
+                    "title": "Fournisseurs de logiciels"
+                },
+                "custom_2": {
+                    "customHtml_2": {
+                        "title": "Dépôts et retraits",
+                        "description": "<p>Nous accordons une attention particulière à tout ce qui contribue à rendre l’expérience de visite plus simple, plus fluide et plus rassurante. Les informations relatives aux dépôts et aux retraits occupent une place importante dans ce cadre, car elles aident nos visiteurs à mieux comprendre les aspects pratiques de leur passage dans notre établissement. Pour une première visite comme pour une venue régulière, disposer d’une vision claire des conditions de paiement permet d’aborder l’expérience avec davantage de sérénité et de confort.<\/p>\n  <br>\n<p>Chez nous, la lisibilité des informations fait partie intégrante de la qualité de service. Lorsqu’un visiteur souhaite préparer sa venue, il recherche naturellement des repères utiles sur les moyens de paiement, les modalités applicables aux transactions, les conditions générales liées aux dépôts et aux retraits ainsi que le fonctionnement global des opérations sur place. Cette dimension pratique joue un rôle essentiel dans la perception de confort, de simplicité et de confiance tout au long de l’expérience.<\/p>\n  <br>\n<p>Nous savons également que la transparence autour des paiements est un élément apprécié par les visiteurs. Une présentation structurée et claire des informations financières contribue à rendre le parcours plus prévisible, plus compréhensible et plus agréable. En mettant en avant les éléments disponibles dans un format organisé, nous facilitons la consultation rapide des informations utiles et nous renforçons la qualité de lecture pour les personnes qui découvrent notre casino pour la première fois.<\/p>\n  <br>\n<p>Dans cette logique, nous privilégions une présentation rigoureuse, fidèle et directement exploitable. Le tableau consacré aux dépôts et aux retraits a été conçu pour offrir une lecture claire, immédiate et pratique, sans surcharge inutile. Cette approche permet à chacun d’identifier rapidement le statut des informations publiquement vérifiables et d’accéder à une vue synthétique des points les plus importants liés aux conditions de paiement.<\/p>\n  <br>\n<p>Nous attachons une grande importance à la fiabilité du contenu présenté à nos visiteurs. C’est pourquoi nous adoptons ici une méthode strictement factuelle, fondée uniquement sur les éléments pouvant être vérifiés à partir des sources publiques disponibles. Cette démarche permet de garantir une présentation cohérente, sérieuse et utile, en restant centrés sur une information propre, claire et responsable. Pour nos visiteurs, cela signifie une consultation plus simple et une meilleure lisibilité des informations essentielles avant leur venue.<\/p>\n  <br>\n<p>Notre objectif est d’offrir une expérience informative aussi soignée que l’expérience sur place. Les visiteurs qui consultent cette section peuvent ainsi retrouver un format structuré, pensé pour accompagner leur préparation et leur permettre d’aborder leur visite avec davantage de repères. Cette organisation renforce le sentiment de clarté et s’inscrit pleinement dans notre volonté de proposer un parcours utilisateur fluide, pratique et orienté vers le confort.<\/p>\n  <br>\n<p>Nous considérons que chaque détail utile participe à la qualité globale de l’expérience. La section dédiée aux dépôts et aux retraits s’intègre donc naturellement dans notre présentation générale, au même titre que les informations sur l’accès, les services, les espaces de jeu et les conditions de visite. En réunissant ces éléments dans une logique cohérente, nous aidons nos visiteurs à mieux se projeter et à préparer leur venue dans les meilleures conditions.<\/p>\n  <br>\n<p>Le tableau ci-dessous reflète ainsi exclusivement les informations publiquement vérifiables dans le cadre de cette présentation. Il a pour vocation d’offrir une lecture claire, directe et structurée, fidèle à notre exigence de sérieux, de transparence et de confort pour l’utilisateur. Nous mettons tout en œuvre pour proposer une information lisible et utile, afin que chaque visiteur puisse découvrir notre casino dans un cadre clair, rassurant et agréable dès les premières étapes de sa consultation.<\/p>\n  <br>\n<div style=\"width:100%; max-width:100%; overflow:hidden;\">\n  <table style=\"width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;\">\n    <tr>\n      <th style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;\">\n        Élément\n      <\/th>\n      <th style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;\">\n        Statut\n      <\/th>\n      <th style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; color:#ffffff; background:transparent; word-break:break-word;\">\n        Remarque\n      <\/th>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Méthodes de dépôt acceptées\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucune source publique vérifiée consultée ne précise les méthodes disponibles\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Montant minimum de dépôt\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Information non confirmée dans les sources accessibles\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Options de retrait disponibles\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Les moyens de retrait ne sont pas détaillés publiquement\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Montant minimum de retrait\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucune donnée vérifiée accessible\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Frais de dépôt\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucun frais confirmé publiquement\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Frais de retrait\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucun frais confirmé publiquement\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Délais de traitement des dépôts\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Les délais ne sont pas indiqués dans les sources consultées\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Délais de traitement des retraits\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucune précision publique vérifiée\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Plafonds de transaction\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Les limites éventuelles ne sont pas confirmées\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Exigences d’identification pour les retraits\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Aucune règle vérifiée accessible publiquement\n      <\/td>\n    <\/tr>\n    <tr>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Règles internes de traitement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Non spécifié publiquement\n      <\/td>\n      <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); color:#ffffff; background:transparent; word-break:break-word;\">\n        Les conditions internes ne sont pas détaillées publiquement\n      <\/td>\n    <\/tr>\n  <\/table>\n<\/div>"
+                    }
+                },
+                "faq": {
+                    "title": "Frequently Asked Questions",
+                    "items": [
+                        {
+                            "title": "Où se situe le Casino de Berck ?",
+                            "answer": "Nous sommes situés Place du 18 Juin, 62600 Berck-sur-Mer, France."
+                        },
+                        {
+                            "title": "L’entrée au Casino de Berck est-elle gratuite ?",
+                            "answer": "Oui. L’entrée est gratuite."
+                        },
+                        {
+                            "title": "Quels jeux peut-on trouver au Casino de Berck ?",
+                            "answer": "Les machines à sous et les jeux de table traditionnels sont confirmés. La composition exacte complète de l’offre n’est pas spécifiée."
+                        },
+                        {
+                            "title": "Faut-il une pièce d’identité pour entrer au Casino de Berck ?",
+                            "answer": "Oui. Les visiteurs doivent avoir 18 ans ou plus et présenter une pièce d’identité valide."
+                        },
+                        {
+                            "title": "Le Casino de Berck propose-t-il de la restauration et des boissons sur place ?",
+                            "answer": "Oui. Le restaurant La Verrière et un bar sont confirmés."
+                        },
+                        {
+                            "title": "Le Casino de Berck dispose-t-il d’un parking ?",
+                            "answer": "Oui. Un parking est disponible pour les visiteurs."
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
