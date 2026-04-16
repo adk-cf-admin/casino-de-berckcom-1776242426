@@ -1,5 +1,5 @@
 User-agent: * 
 Allow: / 
 Disallow: /casino/
-Host: https://#casino-de-berck.com/
-Sitemap: https://#casino-de-berck.com/sitemap.xml
+Host: https://casino-de-berck.com/
+Sitemap: https://casino-de-berck.com/sitemap.xml
